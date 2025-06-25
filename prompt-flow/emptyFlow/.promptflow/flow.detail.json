@@ -1,0 +1,103 @@
+{
+  "flow_runs": [
+    {
+      "run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65_0",
+      "status": "Completed",
+      "error": null,
+      "inputs": {
+        "question": "Porque o céu é azul?"
+      },
+      "output": {
+        "response": "O céu é percebido como azul devido ao fenômeno chamado dispersão de Rayleigh. A luz solar, ao entrar na atmosfera da Terra, interage com as moléculas de gás e partículas pequenas presentes na atmosfera. A luz solar é composta por várias cores, cada uma com um comprimento de onda diferente. Quando a luz solar atinge a atmosfera, as ondas de luz de cor azul, que têm comprimentos de onda mais curtos e são mais energéticas, são dispersas em todas as direções pelas moléculas de ar e partículas muito mais do que as outras cores. Esse espalhamento faz com que a luz azul seja vista de todos os lugares do céu, dando-lhe a cor azul que observamos durante o dia. Quando o sol está se pondo ou nascendo, o céu pode se tornar vermelho ou laranja porque a luz tem que passar por uma camada mais espessa da atmosfera, o que dispersa ainda mais as cores de comprimento de onda curto e permite que as cores de comprimento de onda mais longo, como o vermelho e o laranja, se tornem mais visíveis."
+      },
+      "metrics": null,
+      "request": null,
+      "parent_run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65",
+      "root_run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65",
+      "source_run_id": null,
+      "flow_id": "default_flow_id",
+      "start_time": "2025-06-25T22:37:42.154510Z",
+      "end_time": "2025-06-25T22:37:52.060927Z",
+      "index": 0,
+      "api_calls": [
+        {
+          "name": "flow",
+          "node_name": "flow",
+          "type": "Flow",
+          "start_time": 1750901862.15451,
+          "end_time": 1750901872.060927,
+          "children": [],
+          "system_metrics": {
+            "duration": 9.906417,
+            "prompt_tokens": 0,
+            "completion_tokens": 0,
+            "total_tokens": 0
+          },
+          "inputs": {
+            "question": "Porque o céu é azul?"
+          },
+          "output": {
+            "response": "O céu é percebido como azul devido ao fenômeno chamado dispersão de Rayleigh. A luz solar, ao entrar na atmosfera da Terra, interage com as moléculas de gás e partículas pequenas presentes na atmosfera. A luz solar é composta por várias cores, cada uma com um comprimento de onda diferente. Quando a luz solar atinge a atmosfera, as ondas de luz de cor azul, que têm comprimentos de onda mais curtos e são mais energéticas, são dispersas em todas as direções pelas moléculas de ar e partículas muito mais do que as outras cores. Esse espalhamento faz com que a luz azul seja vista de todos os lugares do céu, dando-lhe a cor azul que observamos durante o dia. Quando o sol está se pondo ou nascendo, o céu pode se tornar vermelho ou laranja porque a luz tem que passar por uma camada mais espessa da atmosfera, o que dispersa ainda mais as cores de comprimento de onda curto e permite que as cores de comprimento de onda mais longo, como o vermelho e o laranja, se tornem mais visíveis."
+          },
+          "error": null
+        }
+      ],
+      "name": "",
+      "description": "",
+      "tags": null,
+      "system_metrics": {
+        "duration": 9.906417,
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0
+      },
+      "result": {
+        "response": "O céu é percebido como azul devido ao fenômeno chamado dispersão de Rayleigh. A luz solar, ao entrar na atmosfera da Terra, interage com as moléculas de gás e partículas pequenas presentes na atmosfera. A luz solar é composta por várias cores, cada uma com um comprimento de onda diferente. Quando a luz solar atinge a atmosfera, as ondas de luz de cor azul, que têm comprimentos de onda mais curtos e são mais energéticas, são dispersas em todas as direções pelas moléculas de ar e partículas muito mais do que as outras cores. Esse espalhamento faz com que a luz azul seja vista de todos os lugares do céu, dando-lhe a cor azul que observamos durante o dia. Quando o sol está se pondo ou nascendo, o céu pode se tornar vermelho ou laranja porque a luz tem que passar por uma camada mais espessa da atmosfera, o que dispersa ainda mais as cores de comprimento de onda curto e permite que as cores de comprimento de onda mais longo, como o vermelho e o laranja, se tornem mais visíveis."
+      },
+      "upload_metrics": false,
+      "otel_trace_id": null,
+      "message_format": "basic"
+    }
+  ],
+  "node_runs": [
+    {
+      "node": "teste_llm",
+      "flow_run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65",
+      "run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65_teste_llm_0",
+      "status": "Completed",
+      "inputs": {
+        "connection": "open-ai-treinamento",
+        "api": "chat",
+        "deployment_name": "gpt-4",
+        "temperature": 0.1,
+        "max_tokens": 500,
+        "question": "Porque o céu é azul?",
+        "response_format": {
+          "type": "text"
+        },
+        "_inputs_to_escape": [
+          "question"
+        ]
+      },
+      "output": "O céu é percebido como azul devido ao fenômeno chamado dispersão de Rayleigh. A luz solar, ao entrar na atmosfera da Terra, interage com as moléculas de gás e partículas pequenas presentes na atmosfera. A luz solar é composta por várias cores, cada uma com um comprimento de onda diferente. Quando a luz solar atinge a atmosfera, as ondas de luz de cor azul, que têm comprimentos de onda mais curtos e são mais energéticas, são dispersas em todas as direções pelas moléculas de ar e partículas muito mais do que as outras cores. Esse espalhamento faz com que a luz azul seja vista de todos os lugares do céu, dando-lhe a cor azul que observamos durante o dia. Quando o sol está se pondo ou nascendo, o céu pode se tornar vermelho ou laranja porque a luz tem que passar por uma camada mais espessa da atmosfera, o que dispersa ainda mais as cores de comprimento de onda curto e permite que as cores de comprimento de onda mais longo, como o vermelho e o laranja, se tornem mais visíveis.",
+      "metrics": null,
+      "error": null,
+      "parent_run_id": "7359700f-3983-4ca6-a1aa-9e544461dc65_0",
+      "start_time": "2025-06-25T22:37:42.156424Z",
+      "end_time": "2025-06-25T22:37:52.060262Z",
+      "index": 0,
+      "api_calls": [],
+      "cached_run_id": null,
+      "cached_flow_run_id": null,
+      "logs": {
+        "stdout": "",
+        "stderr": ""
+      },
+      "system_metrics": {
+        "duration": 9.903838
+      },
+      "result": "O céu é percebido como azul devido ao fenômeno chamado dispersão de Rayleigh. A luz solar, ao entrar na atmosfera da Terra, interage com as moléculas de gás e partículas pequenas presentes na atmosfera. A luz solar é composta por várias cores, cada uma com um comprimento de onda diferente. Quando a luz solar atinge a atmosfera, as ondas de luz de cor azul, que têm comprimentos de onda mais curtos e são mais energéticas, são dispersas em todas as direções pelas moléculas de ar e partículas muito mais do que as outras cores. Esse espalhamento faz com que a luz azul seja vista de todos os lugares do céu, dando-lhe a cor azul que observamos durante o dia. Quando o sol está se pondo ou nascendo, o céu pode se tornar vermelho ou laranja porque a luz tem que passar por uma camada mais espessa da atmosfera, o que dispersa ainda mais as cores de comprimento de onda curto e permite que as cores de comprimento de onda mais longo, como o vermelho e o laranja, se tornem mais visíveis.",
+      "message_format": "basic"
+    }
+  ]
+}

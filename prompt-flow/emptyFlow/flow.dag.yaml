@@ -1,0 +1,24 @@
+inputs:
+  question:
+    type: string
+    default: Porque o céu é azul?
+outputs:
+  response:
+    type: string
+    reference: ${teste_llm.output}
+nodes:
+- name: teste_llm
+  type: custom_llm
+  source:
+    type: package_with_prompt
+    tool: promptflow.tools.llm.llm
+    path: teste_llm.jinja2
+  inputs:
+    connection: open-ai-treinamento
+    api: chat
+    deployment_name: gpt-4
+    temperature: 0.1
+    max_tokens: 500
+    question: ${inputs.question}
+    response_format:
+      type: text

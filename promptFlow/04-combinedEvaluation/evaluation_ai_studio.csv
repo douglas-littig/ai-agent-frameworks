@@ -1,4 +1,4 @@
-Question,Context,Answer
+Question,Context,Answer,GPT Relevance Score,GPT Groundedness Score
 What are the accommodation options offered by Margie’s Travel in Dubai?,"Dubai is the largest and most populous city in the United 
 Arab Emirates. It is located on the southeast coast of the 
 Persian Gulf and is the capital of the Emirate of Dubai, 
@@ -24,7 +24,7 @@ waterpark and aquarium.","Certainly! Margie’s Travel provides several accommod
 The Creek Hotel: A friendly boutique hotel located in the heart of the bustling Dubai Creek area.
 The Deira Hotel: A family-run hotel situated in Dubai’s traditional commercial center.
 The Lost City Hotel: A luxurious accommodation option in Dubai, complete with an onsite waterpark and aquarium.
-Feel free to explore these options for your stay in Dubai!"
+Feel free to explore these options for your stay in Dubai!",5.0,5.0
 Which two emirates in the UAE have veto power over critical national matters?,"Dubai is the largest and most populous city in the United 
 Arab Emirates. It is located on the southeast coast of the 
 Persian Gulf and is the capital of the Emirate of Dubai, 
@@ -45,7 +45,7 @@ Family-run hotel in Dubai’s traditional commercial
 center. 
 The Lost City Hotel 
 Luxurious accommodation in Dubai, with onsite 
-waterpark and aquarium.",Abu Dhabi and Dubai are the two emirates in the United Arab Emirates that have veto power over critical matters of national importance in the country’s Federal Supreme Council. 
+waterpark and aquarium.",Abu Dhabi and Dubai are the two emirates in the United Arab Emirates that have veto power over critical matters of national importance in the country’s Federal Supreme Council. ,5.0,5.0
 What are the key attractions and features that make Las Vegas an internationally renowned major resort city?,"Las Vegas, officially 
 the City of Las Vegas 
 and often known 
@@ -89,7 +89,7 @@ Fine Dining: Culinary enthusiasts can indulge in gourmet dining at celebrity che
 Luxury Hotels: The city is home to opulent hotels and resorts, each with its own theme and amenities. The Volcano Hotel, The Fountain Hotel, and The Canal Hotel are notable choices.
 Shopping: High-end shopping malls and designer boutiques cater to fashionistas and luxury shoppers.
 Unique Experiences: From helicopter rides over the Grand Canyon to indoor skydiving, Las Vegas offers unforgettable experiences.
-Remember, Las Vegas is more than just a city—it’s a vibrant, dynamic destination that captivates visitors with its energy and excitement! "
+Remember, Las Vegas is more than just a city—it’s a vibrant, dynamic destination that captivates visitors with its energy and excitement! ",5.0,5.0
 What are the historical and geographical highlights of London as described in the document?,"London is the capital and 
 most populous city of 
 England and the United 
@@ -136,4 +136,4 @@ For your stay, consider these accommodation options:
 
 The Buckingham Hotel: Comfortable and close to major sights.
 The City Hotel: Luxury rooms within walking distance of Tower Bridge.
-The Kensington Hotel: Budget-friendly accommodation near Earl’s Court."
+The Kensington Hotel: Budget-friendly accommodation near Earl’s Court.",5.0,5.0

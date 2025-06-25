@@ -20,7 +20,8 @@ model_config = AzureOpenAIModelConfiguration(
 #loading the custom prompt evaluator
 courtesy_eval = load_flow(source="evaluator.prompty", model = {"configuration": model_config})
 #evaluating the courtesy score
-courtesy_score = courtesy_eval(question="hello how are you?", answer="I am fine. You need to ask me that again")
+courtesy_score = courtesy_eval(question="hello how are you?", answer="I am fine. Thank you for asking.") 
+# "You need to ask me that again")
 
 #displaying the courtesy score
 print(courtesy_score)

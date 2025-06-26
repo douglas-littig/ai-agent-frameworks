@@ -4,3 +4,4 @@ venv/
 *.cfg
 .vscode
 .venv-*/
+.promptflow/
